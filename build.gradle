@@ -1,0 +1,7 @@
+task printProps {
+    doLast {
+        println nexusUser
+        println nexusPassword
+    }
+}
+
